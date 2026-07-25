@@ -49,8 +49,9 @@ at `v0.7.0`.
 
 ## Versioning
 
-Tags mirror fatou releases: \`rev: v0.7.0 installs fatou 0.7.0. New tags are
-created automatically when a new fatou version is published to PyPI.
+Tags mirror fatou releases: installing at tag `vX.Y.Z` gives you fatou X.Y.Z.
+New tags are created automatically when a new fatou version is published to
+PyPI.
 
 ## License
 
