@@ -6,11 +6,10 @@ A [pre-commit](https://pre-commit.com) hook for
 [fatou](https://github.com/jolars/fatou), a language server, formatter, and
 linter for the Julia language.
 
-Distributed as a thin Python package that depends on the
-[`fatou` PyPI package](https://pypi.org/project/fatou/), so pre-commit
-installs a prebuilt binary wheel—no Rust toolchain or Julia installation
-required. Wheels are available for Linux, macOS, and Windows on both x64 and
-ARM64.
+Distributed as a thin Python package that depends on the [`fatou` PyPI
+package](https://pypi.org/project/fatou/), so pre-commit installs a prebuilt
+binary wheel---no Rust toolchain or Julia installation required. Wheels are
+available for Linux, macOS, and Windows on both x64 and ARM64.
 
 ## Usage
 
@@ -44,14 +43,14 @@ To check formatting without rewriting files:
 ```
 
 Both hooks pass `--force-exclude`, so files matched by `exclude` or
-`extend-exclude` in your `fatou.toml` are skipped even though pre-commit
-names staged files explicitly. This requires fatou 0.7.0 or later, so `rev`
-tags start at `v0.7.0`.
+`extend-exclude` in your `fatou.toml` are skipped even though pre-commit names
+staged files explicitly. This requires fatou 0.7.0 or later, so `rev` tags start
+at `v0.7.0`.
 
 ## Versioning
 
-Tags mirror fatou releases: `rev: v0.7.0` installs fatou 0.7.0. New tags
-are created automatically when a new fatou version is published to PyPI.
+Tags mirror fatou releases: `rev: v0.7.0` installs fatou 0.7.0. New tags are
+created automatically when a new fatou version is published to PyPI.
 
 ## License
 
