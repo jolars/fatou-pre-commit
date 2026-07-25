@@ -1,0 +1,15 @@
+- id: fatou-format
+  name: fatou format
+  description: "Format Julia files with `fatou format`."
+  entry: fatou format --force-exclude
+  language: python
+  files: '\.jl$'
+  require_serial: true
+
+- id: fatou-lint
+  name: fatou lint
+  description: "Lint Julia files with `fatou lint` (add `args: [--fix]` to apply safe autofixes)."
+  entry: fatou lint --force-exclude
+  language: python
+  files: '\.jl$'
+  require_serial: true
