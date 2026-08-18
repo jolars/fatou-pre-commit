@@ -19,7 +19,7 @@ Add this to your `.pre-commit-config.yaml`:
 repos:
   - repo: https://github.com/jolars/fatou-pre-commit
     # fatou version
-    rev: v0.14.0
+    rev: v0.15.0
     hooks:
       # Lint .jl files
       - id: fatou-lint
